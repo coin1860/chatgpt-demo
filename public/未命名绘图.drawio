@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T21:09:11.150Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="LbIqFDVNVBm-ILTMop9k" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-17T21:13:52.174Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="s9GpxisFzu-YirxlSWB1" version="21.1.5" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="1588" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2269" dy="1274" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-262" value="Microsoft Azure Saas" style="swimlane;fillColor=#7EA6E0;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;fontSize=24;swimlaneFillColor=#E6D0DE;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="1300" width="650" height="190" as="geometry" />
+          <mxGeometry x="670" y="1336" width="650" height="190" as="geometry" />
         </mxCell>
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-174" value="HSBC Internal Network" style="swimlane;fillColor=#7EA6E0;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;fontSize=24;swimlaneFillColor=#E6E6E6;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="46.43" width="1650" height="1210" as="geometry" />
+          <mxGeometry x="60" y="46.43" width="1650" height="1243.57" as="geometry" />
         </mxCell>
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-237" value="Fine-tuning" style="rounded=1;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;labelBackgroundColor=none;labelBorderColor=none;html=1;fontSize=20;fontStyle=1" vertex="1" parent="Ko384jSdFO6o4Nu7mtTA-174">
-          <mxGeometry x="1040" y="610" width="270" height="570" as="geometry" />
+          <mxGeometry x="1070" y="590" width="240" height="590" as="geometry" />
         </mxCell>
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-179" value="" style="shape=arrow;endArrow=classic;html=1;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;fontSize=13;" edge="1" parent="Ko384jSdFO6o4Nu7mtTA-174">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="172" y="843" as="sourcePoint" />
-            <mxPoint x="222" y="842.57" as="targetPoint" />
+            <mxPoint x="164" y="843" as="sourcePoint" />
+            <mxPoint x="214" y="842.57" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-25" value="HSBC LLM&lt;br style=&quot;font-size: 13px;&quot;&gt;(Knowledge base&amp;nbsp;)" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.dataServer;strokeColor=#82b366;aspect=fixed;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;html=1;fontSize=13;" vertex="1" parent="Ko384jSdFO6o4Nu7mtTA-174">
@@ -147,6 +147,9 @@
         </mxCell>
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-74" value="User" style="sketch=1;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=13;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.user;curveFitting=1;jiggle=2;shadow=0;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;" vertex="1" parent="Ko384jSdFO6o4Nu7mtTA-174">
           <mxGeometry x="40" y="923.57" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ko384jSdFO6o4Nu7mtTA-298" value="LangChain&amp;nbsp;" style="rounded=1;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;shadow=0;fillColor=none;strokeColor=#82b366;verticalAlign=top;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;labelBackgroundColor=none;labelBorderColor=none;html=1;fontSize=20;fontStyle=1" vertex="1" parent="Ko384jSdFO6o4Nu7mtTA-174">
+          <mxGeometry x="270" y="583.57" width="728" height="626.43" as="geometry" />
         </mxCell>
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-121" value="query" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;sketch=1;curveFitting=1;jiggle=2;fontSize=13;" edge="1" parent="1" source="Ko384jSdFO6o4Nu7mtTA-109" target="Ko384jSdFO6o4Nu7mtTA-108">
           <mxGeometry relative="1" as="geometry" />
@@ -308,17 +311,17 @@
         </mxCell>
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-203" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;sketch=1;curveFitting=1;jiggle=2;fontSize=13;" edge="1" parent="1" source="Ko384jSdFO6o4Nu7mtTA-78" target="Ko384jSdFO6o4Nu7mtTA-90">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="862.9999999999995" y="1399.5" as="targetPoint" />
+            <mxPoint x="862.9999999999995" y="1435.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-78" value="Public data" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="738" y="1377" width="70" height="45" as="geometry" />
+          <mxGeometry x="738" y="1413" width="70" height="45" as="geometry" />
         </mxCell>
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-88" value="User Story" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="873" y="755" width="70" height="45" as="geometry" />
         </mxCell>
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-90" value="OpenAI GPT4" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.dataServer;strokeColor=#82b366;aspect=fixed;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;html=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="1126" y="1368" width="73.11" height="63" as="geometry" />
+          <mxGeometry x="1126" y="1404" width="73.11" height="63" as="geometry" />
         </mxCell>
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;sketch=1;curveFitting=1;jiggle=2;fontSize=13;" edge="1" parent="1" source="Ko384jSdFO6o4Nu7mtTA-93" target="Ko384jSdFO6o4Nu7mtTA-89">
           <mxGeometry relative="1" as="geometry" />
@@ -413,19 +416,19 @@
         </mxCell>
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-223" value="Ask the OpenAI API for answers&lt;br style=&quot;border-color: var(--border-color); font-size: 13px;&quot;&gt;based on pre-prepared questions" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;fontSize=13;" vertex="1" connectable="0" parent="Ko384jSdFO6o4Nu7mtTA-214">
           <mxGeometry x="-0.0995" y="1" relative="1" as="geometry">
-            <mxPoint x="-1" y="27" as="offset" />
+            <mxPoint x="-1" y="63" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-293" value="" style="shape=arrow;endArrow=classic;html=1;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;fontSize=13;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="230" y="956.43" as="sourcePoint" />
-            <mxPoint x="280" y="956.43" as="targetPoint" />
+            <mxPoint x="223" y="956.43" as="sourcePoint" />
+            <mxPoint x="273" y="956.43" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-294" value="" style="shape=arrow;endArrow=classic;html=1;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;fontSize=13;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="229" y="821.43" as="sourcePoint" />
-            <mxPoint x="279" y="821" as="targetPoint" />
+            <mxPoint x="222" y="821.43" as="sourcePoint" />
+            <mxPoint x="272" y="821" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-296" value="Embeddings" style="rounded=1;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;shadow=0;fillColor=none;strokeColor=#82b366;verticalAlign=top;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;labelBackgroundColor=none;labelBorderColor=none;html=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
