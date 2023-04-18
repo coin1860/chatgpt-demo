@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-18T15:15:06.058Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="nCcyBRMzEsAuwd1LzTIP" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-18T17:09:03.387Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="wNLh4QlSUg_mlzGhiNsF" version="21.1.8" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="1588" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="836" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,6 +9,9 @@
         </mxCell>
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-174" value="HSBC Internal Network" style="swimlane;fillColor=#7EA6E0;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;fontSize=24;swimlaneFillColor=#E6E6E6;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="46.43" width="1650" height="1243.57" as="geometry" />
+        </mxCell>
+        <mxCell id="Ko384jSdFO6o4Nu7mtTA-298" value="LangChain&amp;nbsp;" style="rounded=1;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;shadow=0;fillColor=none;strokeColor=#82b366;verticalAlign=top;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;labelBackgroundColor=none;labelBorderColor=none;html=1;fontSize=20;fontStyle=1" parent="Ko384jSdFO6o4Nu7mtTA-174" vertex="1">
+          <mxGeometry x="270" y="583.57" width="728" height="626.43" as="geometry" />
         </mxCell>
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-237" value="Fine-tuning" style="rounded=1;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;labelBackgroundColor=none;labelBorderColor=none;html=1;fontSize=20;fontStyle=1" parent="Ko384jSdFO6o4Nu7mtTA-174" vertex="1">
           <mxGeometry x="1070" y="590" width="240" height="590" as="geometry" />
@@ -101,7 +104,7 @@
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-68" value="HSBC LLM&lt;br style=&quot;font-size: 13px;&quot;&gt;(Perceptron Classification)" style="verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.dataServer;strokeColor=#82b366;aspect=fixed;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;html=1;fontSize=13;" parent="Ko384jSdFO6o4Nu7mtTA-174" vertex="1">
           <mxGeometry x="326.94" y="1013.57" width="73.11" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="Ko384jSdFO6o4Nu7mtTA-93" value="Is&#xa;sensitive &#xa;prompts" style="rhombus;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;fontSize=13;" parent="Ko384jSdFO6o4Nu7mtTA-174" vertex="1">
+        <mxCell id="Ko384jSdFO6o4Nu7mtTA-93" value="distribution" style="rhombus;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;fontSize=13;" parent="Ko384jSdFO6o4Nu7mtTA-174" vertex="1">
           <mxGeometry x="506" y="858.0000000000001" width="78" height="83" as="geometry" />
         </mxCell>
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;fontSize=13;" parent="Ko384jSdFO6o4Nu7mtTA-174" source="Ko384jSdFO6o4Nu7mtTA-68" target="Ko384jSdFO6o4Nu7mtTA-93" edge="1">
@@ -109,15 +112,6 @@
             <Array as="points">
               <mxPoint x="460" y="1045" />
               <mxPoint x="460" y="899" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ko384jSdFO6o4Nu7mtTA-206" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;sketch=1;curveFitting=1;jiggle=2;fontSize=13;" parent="Ko384jSdFO6o4Nu7mtTA-174" source="Ko384jSdFO6o4Nu7mtTA-93" target="Ko384jSdFO6o4Nu7mtTA-181" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="610" y="900" />
-              <mxPoint x="610" y="1094" />
-              <mxPoint x="648" y="1094" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -148,11 +142,21 @@
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-74" value="User" style="sketch=1;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=13;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.user;curveFitting=1;jiggle=2;shadow=0;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;" parent="Ko384jSdFO6o4Nu7mtTA-174" vertex="1">
           <mxGeometry x="40" y="923.57" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ko384jSdFO6o4Nu7mtTA-298" value="LangChain&amp;nbsp;" style="rounded=1;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;shadow=0;fillColor=none;strokeColor=#82b366;verticalAlign=top;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;labelBackgroundColor=none;labelBorderColor=none;html=1;fontSize=20;fontStyle=1" parent="Ko384jSdFO6o4Nu7mtTA-174" vertex="1">
-          <mxGeometry x="270" y="583.57" width="728" height="626.43" as="geometry" />
-        </mxCell>
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-62" value="Query keyword" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;fontSize=13;" parent="Ko384jSdFO6o4Nu7mtTA-174" vertex="1">
           <mxGeometry x="150" y="396.08" width="70" height="46.25" as="geometry" />
+        </mxCell>
+        <mxCell id="JB-tUpygrZmnRLRFKEe1-1" value="AI engineer" style="sketch=1;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=13;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.user;curveFitting=1;jiggle=2;shadow=0;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;" vertex="1" parent="Ko384jSdFO6o4Nu7mtTA-174">
+          <mxGeometry x="1510" y="683.5699999999999" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ko384jSdFO6o4Nu7mtTA-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;sketch=1;curveFitting=1;jiggle=2;fontSize=13;" parent="Ko384jSdFO6o4Nu7mtTA-174" source="Ko384jSdFO6o4Nu7mtTA-93" target="Ko384jSdFO6o4Nu7mtTA-181" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="604" y="900" />
+              <mxPoint x="604" y="1094" />
+              <mxPoint x="690" y="1094" />
+              <mxPoint x="690" y="1093" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-121" value="query" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;sketch=1;curveFitting=1;jiggle=2;fontSize=13;" parent="1" source="Ko384jSdFO6o4Nu7mtTA-109" target="Ko384jSdFO6o4Nu7mtTA-108" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -326,30 +330,8 @@
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;sketch=1;curveFitting=1;jiggle=2;fontSize=13;" parent="1" source="Ko384jSdFO6o4Nu7mtTA-93" target="Ko384jSdFO6o4Nu7mtTA-89" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ko384jSdFO6o4Nu7mtTA-190" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;fontSize=13;" parent="Ko384jSdFO6o4Nu7mtTA-115" vertex="1" connectable="0">
-          <mxGeometry x="-0.2376" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ko384jSdFO6o4Nu7mtTA-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;sketch=1;curveFitting=1;jiggle=2;fontSize=13;" parent="1" source="Ko384jSdFO6o4Nu7mtTA-93" target="Ko384jSdFO6o4Nu7mtTA-109" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="630" y="946" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ko384jSdFO6o4Nu7mtTA-191" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;fontSize=13;" parent="Ko384jSdFO6o4Nu7mtTA-116" vertex="1" connectable="0">
-          <mxGeometry x="-0.2809" y="-1" relative="1" as="geometry">
-            <mxPoint y="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;sketch=1;curveFitting=1;jiggle=2;fontSize=13;" parent="1" source="Ko384jSdFO6o4Nu7mtTA-93" target="Ko384jSdFO6o4Nu7mtTA-78" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Ko384jSdFO6o4Nu7mtTA-192" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;fontSize=13;" parent="Ko384jSdFO6o4Nu7mtTA-117" vertex="1" connectable="0">
-          <mxGeometry x="-0.3519" y="-3" relative="1" as="geometry">
-            <mxPoint y="42" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-102" value="Industry Reports" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="873" y="960" width="70" height="45" as="geometry" />
@@ -432,6 +414,14 @@
         </mxCell>
         <mxCell id="Ko384jSdFO6o4Nu7mtTA-296" value="LangChain + Embeddings" style="rounded=1;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;shadow=0;fillColor=none;strokeColor=#82b366;verticalAlign=top;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;labelBackgroundColor=none;labelBorderColor=none;html=1;fontSize=20;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="340" y="140" width="778" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="JB-tUpygrZmnRLRFKEe1-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="Ko384jSdFO6o4Nu7mtTA-93" target="Ko384jSdFO6o4Nu7mtTA-109">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="946" />
+              <mxPoint x="730" y="946" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
