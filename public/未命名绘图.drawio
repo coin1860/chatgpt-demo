@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T17:01:46.298Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="9WIfYR2-6kt6TKY0yYI8" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T17:05:28.972Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="IlGterJJe86IrNLu1rwi" version="21.3.8" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1002" dy="-18" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -13,8 +13,8 @@
         <mxCell id="dU21FPppeyS3T2o5cR1i-35" value="Developer" style="sketch=1;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=13;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.user;curveFitting=1;jiggle=2;shadow=0;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;" parent="Ko384jSdFO6o4Nu7mtTA-174" vertex="1">
           <mxGeometry x="46" y="304.07" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dU21FPppeyS3T2o5cR1i-39" value="Generate question-and-answer format training dataset based on HSBC internal data" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=13;sketch=1;curveFitting=1;jiggle=2;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;" parent="Ko384jSdFO6o4Nu7mtTA-174" vertex="1">
-          <mxGeometry x="1081" y="211" width="90" height="130" as="geometry" />
+        <mxCell id="dU21FPppeyS3T2o5cR1i-39" value="Use standard code templates to generate training datasets, allowing LLM to generate codes that are more compliant with HSBC standards." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=13;sketch=1;curveFitting=1;jiggle=2;fontFamily=Alkatra;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DAlkatra;" parent="Ko384jSdFO6o4Nu7mtTA-174" vertex="1">
+          <mxGeometry x="1081" y="211" width="99" height="149" as="geometry" />
         </mxCell>
         <mxCell id="F_Ttg1E1vB6wUTOcJxNr-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="Ko384jSdFO6o4Nu7mtTA-174" source="dU21FPppeyS3T2o5cR1i-22" target="dU21FPppeyS3T2o5cR1i-39">
           <mxGeometry relative="1" as="geometry" />
